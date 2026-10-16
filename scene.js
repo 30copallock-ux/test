@@ -1,4 +1,3 @@
-
 (()=>{
 if(!window.THREE){$("#scene").style.background="linear-gradient(#8fd0f5,#8ed16a)";return}
 const T=THREE,H=2.7,W=10.4,LX=W/2+1.2,FL=4;
@@ -69,6 +68,3 @@ function loop(n){requestAnimationFrame(loop);const dt=Math.min((n-last)/1e3,.1),
  ren.render(sc,cam)}
 requestAnimationFrame(loop);
 })();
-
-
-:
