@@ -66,3 +66,5 @@ function frame(n){const dt=Math.min((n-prev)/1e3,.25);prev=n;const i=income();S.
  requestAnimationFrame(frame)}
 setInterval(()=>save(true),10000);addEventListener("beforeunload",()=>save(true));
 load();requestAnimationFrame(frame);
+
+
