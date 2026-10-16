@@ -1,5 +1,4 @@
-
-:root{--navy:#15304a;--navy2:#21486b;--gold:#ffc928;--green:#43c04f;--ink:#fff}
+root{--navy:#15304a;--navy2:#21486b;--gold:#ffc928;--green:#43c04f;--ink:#fff}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;height:100%;overflow:hidden;background:#8fd0f5;font-family:Fredoka,"Trebuchet MS",sans-serif;color:var(--ink);user-select:none}
 #scene,#sky{position:fixed;inset:0}#sky{pointer-events:none;overflow:hidden}
@@ -36,3 +35,4 @@ select,input{font:inherit;padding:6px 8px;border-radius:8px;border:0}input[type=
 .drone::before{content:"";position:absolute;left:4px;right:4px;top:2px;height:4px;border-radius:3px;background:#2b3640;animation:spin .12s linear infinite}
 @keyframes fly{to{transform:translateX(calc(100vw + 180px))}}@keyframes bob{50%{transform:translateY(4px)}}@keyframes spin{50%{transform:scaleX(.6)}}
 @media (prefers-reduced-motion:reduce){.drone,.drone *{animation-duration:20s!important}#sheet{animation:none}}
+
