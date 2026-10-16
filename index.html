@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Egg Org</title><link rel="icon" href="assets/icon.jpeg">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="scene"></div><div id="sky"></div>
+<div id="top">
+ <div class="chip cash"><b>$</b><span id="cash">0</span></div>
+ <div class="chip gold"><i class="egg"></i><span id="gold">0</span></div>
+ <div class="chip soul"><i class="egg"></i><span id="soul">0</span></div>
+</div>
+<div id="stats"><span id="eps"></span><span id="ips"></span></div>
+<div id="hatch"><button id="hatchBtn"><span>Hatchery</span><small id="hatchInfo"></small></button></div>
+<nav id="nav">
+ <button data-t="research">Research</button><button data-t="fleet">Fleet</button>
+ <button data-t="boost">Silos</button><button data-t="prestige">Prestige</button><button data-t="settings">Settings</button>
+</nav>
+<div id="sheet" hidden><div class="bar"><h2 id="sheetTitle"></h2><button id="close">✕</button></div><div id="sheetBody"></div></div>
+<div id="toast"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="game.js"></script><script src="scene.js"></script>
+</body></html>
